@@ -12,11 +12,23 @@
   <div id="app"></div>
   <script>
       window.$docsify = {
-          disqus: 'shortname',
-          ga: 'UA-166640505-1'
+          // disqus: 'shortname',
+          ga: 'UA-166640505-1',
+          auto2top: true,
+          loadSidebar: true,
+          alias: {
+              // '/apis/.*/_sidebar.md': '/apis/_sidebar.md'
+          },
+          search: {
+              maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+              paths: 'auto',
+              placeholder: '请输入您想搜索的关键字',
+              noData: '暂无结果！'
+          }
       }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
