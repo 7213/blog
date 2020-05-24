@@ -16,5 +16,5 @@ Rax整体上我们可以将其分层三层：
 创建、维护、更新vdom树，其产生第一次挂载的vdom结构和后续更新的diff patch（rax是边diff边patch），最后通过调用`driver`进行实际宿主环境的绘制
 
 - **driver**   
-调用宿主API，负责实际的绘制和更新动作。如driver-dom就是调用dom api进行实际业务操作
+根据rax给出的关于UI操作的 增、删、改、查抽象，宿主进行实现从而实现真实绘制。如driver-dom就是调用dom api进行实际页面操作
 
