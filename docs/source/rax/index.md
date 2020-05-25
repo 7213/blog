@@ -35,3 +35,24 @@ Rax逻辑上可以分为三层：
 - **driver**   
 根据rax给出的关于UI操作的 增、删、改、查抽象，宿主进行实现从而实现真实绘制。如driver-dom就是调用dom api进行实际页面操作
 
+## 执行流程
+可以用Rax应用的三个流程完整分析完Rax所有能力，每个流程涉及以下知识点：
+
+- 挂载流程
+    - vdom是如何建立的
+    - state、props、context的处理
+    - ref
+    - attribute
+    - hooks 
+
+- 更新流程
+    - setState后rax干了什么
+    - ref如何更新
+    - attribute如何更新
+    - hooks是如何实现的
+    - SUC的注意点
+    - key的作用、diff算法
+
+- 卸载流程
+
+
