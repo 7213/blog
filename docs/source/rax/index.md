@@ -19,7 +19,7 @@ Rax逻辑上可以分为三层：
     1.NativeComponent[源码](https://github.com/alibaba/rax/blob/master/packages/rax/src/vdom/native.js)         
     在`JSX`中返回的原生标签将生成一个NativeComponent实例节点,如`<div></div>`    
     2.CompositeComponent[源码](https://github.com/alibaba/rax/blob/master/packages/rax/src/vdom/composite.js)     
-    我们写的自定义的组件（包括函数式组件）将生成一个CompositeComponent实例节点,如 `<Header />`   
+    继承Component、PureComponent的自定义组件、函数式组件将生成一个CompositeComponent实例节点,如 `<Header />`   
     3.TextComponent[源码](https://github.com/alibaba/rax/blob/master/packages/rax/src/vdom/text.js)      
     纯文本节点将生成一个CompositeComponent实例节点,如 `Hellow World`   
     4.FragmentComponent[源码](https://github.com/alibaba/rax/blob/master/packages/rax/src/vdom/fragment.js)      
