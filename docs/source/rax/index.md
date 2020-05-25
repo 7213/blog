@@ -15,7 +15,8 @@ Rax逻辑上可以分为三层：
 - **rax-reconciler**   
 创建、维护、更新`vdom`，第一次挂载生成`vdom结构`，更新通过遍历`vdom结构`逐层比较props和state在更新、重建有区别的`子vdom`并生成patch（rax是边diff边patch），patch通过调用`driver`进行实际宿主环境的绘制
 
-    在rax内部`vdom`就是是由以下几种类型的节点形成的树结构:         
+    在rax内部`vdom`就是是由以下几种类型的节点形成的树结构: 
+            
     1.NativeComponent[源码](https://github.com/alibaba/rax/blob/master/packages/rax/src/vdom/native.js)         
     在`JSX`中返回的原生标签将生成一个NativeComponent实例节点,如`<div></div>`    
     
