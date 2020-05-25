@@ -24,12 +24,12 @@ Rax逻辑上可以分为三层：
     继承Component、PureComponent的自定义组件、函数式组件将生成一个CompositeComponent实例节点,如 `<Header />`
        
     3.TextComponent[源码](https://github.com/alibaba/rax/blob/master/packages/rax/src/vdom/text.js)      
-    纯文本节点将生成一个CompositeComponent实例节点,如 `Hellow World`   
+    纯文本节点将生成一个TextComponent实例节点,如 `Hellow World`   
     
     4.FragmentComponent[源码](https://github.com/alibaba/rax/blob/master/packages/rax/src/vdom/fragment.js)      
     JSX为`<></>`或`[]`将生成一个FragmentComponent实例节点   
     
-    5.FragmentComponent[源码](https://github.com/alibaba/rax/blob/master/packages/rax/src/vdom/empty.js)      
+    5.EmptyComponent[源码](https://github.com/alibaba/rax/blob/master/packages/rax/src/vdom/empty.js)      
     JSX为`null`、`undefined`、`true`、`false`时 将生成一个EmptyComponent实例节点，它主要用来占住当前位置，当下次更新成一个实际渲染节点时可以找到要挂载的index
 
 - **driver**   
