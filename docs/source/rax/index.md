@@ -1,3 +1,7 @@
+# Rax源码分析一：总体架构
+
+<img style="width:100%;height:auto;" src="/source/rax/../../resource/放大镜.png" />
+
 ## 架构分层
 Rax逻辑上可以分为三层：
 
