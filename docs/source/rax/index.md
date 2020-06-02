@@ -56,3 +56,7 @@ Rax逻辑上可以分为三层：
 - 卸载流程
 
 
+来一张图一目了然，rax内部维护的vdom和dom的对应关系
+![vdom](../../resource/vdom.png)
+
+
