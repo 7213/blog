@@ -56,7 +56,7 @@ Rax逻辑上可以分为三层：
 - 卸载流程
 
 
-来一张图一目了然，rax内部维护的vdom和dom的对应关系
+来一张图一目了然，rax和driver维护了vdom和宿主环境"视图树"的关联，后续setState的操作就是通过**rax-reconciler** 操作vdom树并且产生diff最后
 ![vdom](../../resource/vdom.png)
 
 
