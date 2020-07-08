@@ -1,11 +1,4 @@
-记录学习点滴...
-- 前端学编译原理
-    - [01.词法和语法](/javascript/tdop/01.词法和语法.md)
-    - [02.符号表与表达式](/javascript/tdop/02.符号表与表达式.md)
-    - [03.作用域和语句](/javascript/tdop/03.作用域和语句.md)
-    - 04.总结
-- 深入JS
-    - 异步
-        - 01.JS如何模拟纤程
-- rax源码分析
-    - [01.整体架构](/source/rax/index)
+如果您想和我沟通技术或者想换一个工作环境，可以通过以下方式联系我：
+
+
+![songzheng](./resource/qrcode.png)
