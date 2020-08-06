@@ -2,6 +2,6 @@
     - [01.词法和语法](/javascript/tdop/01.词法和语法.md)
     - [02.符号表与expression](/javascript/tdop/02.符号表与表达式.md)
     - [03.表达式、语句和作用域](/javascript/tdop/03.作用域和语句.md)
-    - [03.整合版](/javascript/tdop/04.完整篇.md)
+    - [04.整合版](/javascript/tdop/04.完整篇.md)
 - 异步
     - 01.JS如何模拟纤程
